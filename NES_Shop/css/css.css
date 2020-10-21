@@ -1,0 +1,76 @@
+/*-- Media queries --*/
+@media (max-width: 992px){}
+
+@media (max-width: 768px){}
+
+@media (max-width: 576px){}
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: monospace;
+    font-size: 100%;
+}
+
+H1{
+    color: crimson;
+}
+
+H2{
+    color: crimson;
+    margin-left: 2em;
+}
+H3{
+    color: crimson;
+}
+footer{
+    background-color: dimgrey;
+}
+.foot{
+    color: white;
+}
+
+.checked {
+  color: orange;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+    border: 1em solid black;
+}
+#loginPage{
+    margin: 3em;
+}
+
+
+/*        <!-- Social media links -->
+    <div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    </div> */
